@@ -1,5 +1,8 @@
 #Germania\UsersRetailers
 
+[![Build Status](https://travis-ci.org/GermaniaKG/UsersRetailers.svg?branch=master)](https://travis-ci.org/GermaniaKG/UsersRetailers)
+[![Code Coverage](https://scrutinizer-ci.com/g/GermaniaKG/UsersRetailers/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/UsersRetailers/?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/GermaniaKG/UsersRetailers/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/UsersRetailers/?branch=master)
 
 
 
