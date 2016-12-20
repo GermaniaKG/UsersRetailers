@@ -56,6 +56,7 @@ In `phpunit.xml`, edit the database credentials:
 	<var name="DB_USER"   value="DBUSER" />
 	<var name="DB_PASSWD" value="DBPASS" />
 	<var name="DB_DBNAME" value="DBNAME" />
+	<var name="DB_SETUP"  value="sql/users_retailers.sql.txt" />
 </php>
 ```
 

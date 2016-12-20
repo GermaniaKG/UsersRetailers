@@ -1,5 +1,5 @@
 <?php
-namespace tests;
+namespace mysql;
 
 use Germania\UsersRetailers\RetailerNumberFinder;
 use Psr\Log\LoggerInterface;

@@ -1,5 +1,5 @@
 <?php
-namespace tests;
+namespace mysql;
 
 
 abstract class DatabaseTestCaseAbstract extends \PHPUnit_Extensions_Database_TestCase
