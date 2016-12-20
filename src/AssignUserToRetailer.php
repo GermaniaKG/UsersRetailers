@@ -59,7 +59,7 @@ class AssignUserToRetailer
                 'retailer_number' => $retailer_number
             ]);
         } catch(\PdoException $e) {
-            if ($e->getCode = 23000) {
+            if ($e->getCode() === "23000") {
                 // Duplicate selector:
                 // Not quite what we wanted, but useful in this case.
                 $result = true;
