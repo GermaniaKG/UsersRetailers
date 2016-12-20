@@ -25,6 +25,7 @@ script:
 after_script:
 
 # Customize when the notification emails are sent.
+# See: https://docs.travis-ci.com/user/notifications/
 notifications: # change, always, never
     email:
         on_success: change
