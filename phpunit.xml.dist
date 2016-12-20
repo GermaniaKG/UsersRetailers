@@ -21,10 +21,7 @@
 
 	<filter>
 		<whitelist processUncoveredFilesFromWhitelist="true">
-			<directory>default</directory>
-			<!--
-			<directory>mysql</directory>
-			-->
+			<directory>src</directory>
 		</whitelist>
 	</filter>
 
