@@ -15,7 +15,7 @@ class RetailerNumberFinder
     public $table = 'users_retailers';
 
     /**
-     * @var PDOStatement
+     * @var \PDOStatement
      */
     public $stmt;
 
