@@ -9,14 +9,22 @@
 
 
 	<testsuites>
-		<testsuite name="Test Suite">
-			<directory>tests/src</directory>
+		<testsuite name="default">
+			<directory>tests/default</directory>
 		</testsuite>
+		<!--
+		<testsuite name="mysql">
+			<directory>tests/mysql</directory>
+		</testsuite>
+		-->
 	</testsuites>
 
 	<filter>
 		<whitelist processUncoveredFilesFromWhitelist="true">
-			<directory>src</directory>
+			<directory>default</directory>
+			<!--
+			<directory>mysql</directory>
+			-->
 		</whitelist>
 	</filter>
 
