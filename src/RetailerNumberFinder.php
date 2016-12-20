@@ -46,7 +46,7 @@ class RetailerNumberFinder
      */
     public function __invoke( $user_id )
     {
-        $exec_result = $this->stmt->execute([
+        $this->stmt->execute([
           ':user_id' => $user_id
         ]);
 
