@@ -32,7 +32,7 @@ $retailer_number = $finder( $user_id );
 
 ##Development and Testing
 
-First, grab our clone:
+First, grab your clone:
 
 ```bash
 $ git clone git@github.com:GermaniaKG/UsersRetailers.git users-retailers
