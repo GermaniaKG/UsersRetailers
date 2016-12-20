@@ -2,5 +2,8 @@ CREATE TABLE `users_retailers` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `user_id` int(11) unsigned DEFAULT NULL,
   `retailer_number` int(11) unsigned DEFAULT NULL,
-  PRIMARY KEY (`id`)
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `unique_user_and_retailer` (`user_id`,`retailer_number`),
+  KEY `index_user` (`user_id`),
+  KEY `index_retailer` (`retailer_number`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
