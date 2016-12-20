@@ -1,9 +1,4 @@
 <?php
-/**
- * This file is part of package germania/fachhaendlerbereich/core
- *
- * Copyright: Germania KG, Altenholz
- */
 namespace Germania\UsersRetailers;
 
 use Psr\Log\LoggerInterface;
