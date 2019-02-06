@@ -1,4 +1,4 @@
-#Germania\UsersRetailers
+# Germania\UsersRetailers
 
 # GermaniaKG · UsersRetailers
 
@@ -19,7 +19,7 @@ $ composer require germania-kg/users-retailers
 
 **MySQL users** may install the table *users\_retailers* using `users_retailers.sql.txt` in `sql/` directory.
 
-##Find a retailer number
+## Find a retailer number
 
 ```php
 <?php
