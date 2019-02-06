@@ -7,13 +7,13 @@ use Psr\Log\NullLogger;
 use Prophecy\Argument;
 
 
-class AssignUserToRetailerTest extends \PHPUnit_Framework_TestCase
+class AssignUserToRetailerTest extends \PHPUnit\Framework\TestCase
 {
 
     public $logger;
 
 
-    public function setUp()
+    public function setUp() : void
     {
         parent::setUp();
         $this->logger = new NullLogger;

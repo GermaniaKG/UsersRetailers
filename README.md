@@ -1,12 +1,17 @@
 #Germania\UsersRetailers
 
-[![Build Status](https://travis-ci.org/GermaniaKG/UsersRetailers.svg?branch=master)](https://travis-ci.org/GermaniaKG/UsersRetailers)
-[![Code Coverage](https://scrutinizer-ci.com/g/GermaniaKG/UsersRetailers/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/UsersRetailers/?branch=master)
+# GermaniaKG · UsersRetailers
+
+
+[![Packagist](https://img.shields.io/packagist/v/germania-kg/users-retailers.svg?style=flat)](https://packagist.org/packages/germania-kg/users-retailers)
+[![PHP version](https://img.shields.io/packagist/php-v/germania-kg/users-retailers.svg)](https://packagist.org/packages/germania-kg/users-retailers)
+[![Build Status](https://img.shields.io/travis/GermaniaKG/UsersRetailers.svg?label=Travis%20CI)](https://travis-ci.org/GermaniaKG/UsersRetailers)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/GermaniaKG/UsersRetailers/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/UsersRetailers/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/GermaniaKG/UsersRetailers/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/UsersRetailers/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/GermaniaKG/UsersRetailers/badges/build.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/UsersRetailers/build-status/master)
 
 
-
-##Installation
+## Installation with Composer
 
 ```bash
 $ composer require germania-kg/users-retailers
@@ -33,18 +38,25 @@ $retailer_number = $finder( $user_id );
 
 
 
-##Development and Testing
-
-First, grab your clone:
+## Development
 
 ```bash
-$ git clone git@github.com:GermaniaKG/UsersRetailers.git users-retailers
-$ cd users-retailers
+$ git clone https://github.com/GermaniaKG/UsersRetailers.git
+$ cd UsersRetailers
 $ composer install
-$ cp phpunit.xml.dist phpunit.xml
 ```
 
 Develop using `develop` branch, using [Git Flow](https://github.com/nvie/gitflow).   
+
+## Unit tests
+
+Either copy `phpunit.xml.dist` to `phpunit.xml` and adapt to your needs, or leave as is. Run [PhpUnit](https://phpunit.de/) test or composer scripts like this:
+
+```bash
+$ composer test
+# or
+$ vendor/bin/p
+
 
 Setup a MySQL table `users\_retailers` as in `sql/users_retailers.sql.txt `. 
 
@@ -59,7 +71,3 @@ In `phpunit.xml`, edit the database credentials:
 	<var name="DB_SETUP"  value="sql/users_retailers.sql.txt" />
 </php>
 ```
-
-
-Go to project root and issue `phpunit`.
-
