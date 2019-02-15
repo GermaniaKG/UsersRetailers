@@ -52,19 +52,21 @@ Either copy `phpunit.xml.dist` to `phpunit.xml` and adapt to your needs, or leav
 ```bash
 $ composer test
 # or
-$ vendor/bin/p
+$ vendor/bin/phpunit
+```
 
+### MySQL Setup
 
 Setup a MySQL table `users\_retailers` as in `sql/users_retailers.sql.txt `. 
-
 In `phpunit.xml`, edit the database credentials:
 
-​```xml
+```xml
 <php>
-	<var name="DB_DSN"    value="mysql:host=localhost;dbname=DBNAME;charset=utf8" />
+	<var name="DB_DSN"    value="mysql:host=127.0.0.1;dbname=DBNAME;charset=utf8" />
 	<var name="DB_USER"   value="DBUSER" />
 	<var name="DB_PASSWD" value="DBPASS" />
 	<var name="DB_DBNAME" value="DBNAME" />
 	<var name="DB_SETUP"  value="sql/users_retailers.sql.txt" />
 </php>
 ```
+
