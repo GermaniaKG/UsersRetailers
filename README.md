@@ -1,7 +1,4 @@
-# Germania\UsersRetailers
-
 # GermaniaKG · UsersRetailers
-
 
 [![Packagist](https://img.shields.io/packagist/v/germania-kg/users-retailers.svg?style=flat)](https://packagist.org/packages/germania-kg/users-retailers)
 [![PHP version](https://img.shields.io/packagist/php-v/germania-kg/users-retailers.svg)](https://packagist.org/packages/germania-kg/users-retailers)
@@ -62,7 +59,7 @@ Setup a MySQL table `users\_retailers` as in `sql/users_retailers.sql.txt `.
 
 In `phpunit.xml`, edit the database credentials:
 
-```xml
+​```xml
 <php>
 	<var name="DB_DSN"    value="mysql:host=localhost;dbname=DBNAME;charset=utf8" />
 	<var name="DB_USER"   value="DBUSER" />
