@@ -13,7 +13,7 @@ class AssignUserToRetailerTest extends DatabaseTestCaseAbstract
     public $logger;
 
 
-    public function setUp() : void
+    public function setUp()
     {
         parent::setUp();
         $this->logger = new NullLogger;
